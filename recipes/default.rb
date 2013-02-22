@@ -6,7 +6,7 @@
 #
 
 # we add nginx php5 apt repo
-ppa "nginx/php5"
+ppa "l-mierzwa/lucid-php5"
 
 # install the php-fpm package
 package "php5-fpm" do
