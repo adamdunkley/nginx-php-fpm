@@ -5,6 +5,9 @@
 # Copyright 2012, Stephen Birarda
 #
 
+# we add nginx php5 apt repo
+ppa "nginx/php5"
+
 # install the php-fpm package
 package "php5-fpm" do
   action :install
